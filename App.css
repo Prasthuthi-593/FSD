@@ -1,0 +1,19 @@
+button{
+  border-radius: 10px;
+  background-color: green; 
+  text-align: center; 
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  margin :2px 4px;
+  cursor: pointer;
+ 
+}
+div{
+  padding: 200px;
+  border: 2px solid;
+  margin-left: 100px;
+}
+button:hover{
+  background-color: rgb(87, 192, 87);
+}

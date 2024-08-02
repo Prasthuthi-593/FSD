@@ -1,0 +1,15 @@
+table{
+    background-color: aquamarine;
+    width:80%;
+    border-collapse: collapse;
+}
+th{
+    background-color:antiquewhite;
+}
+tr{
+    background-color: aquamarine;
+}
+tr:hover{
+    background-color: rgb(97, 223, 181);
+
+}

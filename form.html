@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>First Name;</label>
+        <input type="text" id="firstName"  >
+        
+    </br>
+        <label>Last Name:</label>
+        <input type="text" id="lastName"  >
+       
+</br>
+        <button onclick="greet()">Greet me!</button>
+        
+    </form>
+    <script>
+    function greet(){
+
+    const firstName = document.getElementById("firstName").value;
+    const lastName = document.getElementById("lastName").value;
+    if(firstName==''|| lastName=='')
+    {
+        alert("Please enter your first and last name");
+    }
+    else
+    alert(`Hello, ${firstName} ${lastName}.. Have a nice dayy!`);
+}
+    </script>
+</body>
+</html>
